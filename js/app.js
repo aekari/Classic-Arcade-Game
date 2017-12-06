@@ -53,12 +53,12 @@ var Player = function (x, y, speed) {
 
 Player.prototype.update = function (dt) {
     //Blocks the player from moving out of bounds
-    if (this.y > 400) {
-        this.y = 400;
+    if (this.y > 380) {
+        this.y = 380;
     }
 
-    if (this.x > 500) {
-        this.x = 500;
+    if (this.x > 400) {
+        this.x = 400;
     }
 
     if (this.x < 0) {
